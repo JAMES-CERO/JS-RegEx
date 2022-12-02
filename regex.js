@@ -31,7 +31,8 @@ Expected Output:
 
 */ 
  
-let phoneReg = /write your regex here/
+let phoneReg = /^(\+0?1\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/
+
 
 /* 
 
@@ -51,7 +52,7 @@ Expected Output:
 
 */ 
 
-let emailReg = /write your regex here/
+let emailReg = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/
 
 /* 
 
@@ -67,4 +68,4 @@ Expected Output:
 
 */ 
 
-let statusReg = /write your regex here/
+let statusReg = /(Approved)/
